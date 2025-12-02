@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+.prompt-extralight {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* font */
+
+.container-box {
+    width: 100%;
+    height: 1300px;
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    
+    .text-con {
+        margin: 0 auto;
+        width: 60%;
+
+        .text-bmi{
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .calculate-wrapper {
+        background-color: rgb(223, 223, 236);
+        margin: 0 auto;
+        width: 40%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* x y blur สี */
+        
+        h2 {
+            margin-top: 20px;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+
+        .weight {
+            margin-bottom: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .height {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px 50px;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: rgb(150, 166, 236);
+        }
+        
+        .table {
+            text-align: center;
+            margin-top: 50px;
+            width: 70%;
+            
+            th {
+                background-color: rgb(223, 223, 236);
+            }
+            
+            h5 {
+                font-size: 17px;
+            }
+            
+            td {
+                padding: 0;
+                margin: 0;
+            }
+
+            p {
+                padding: 2px;
+                text-align: left
+            }
+        }
+
+        .warning {
+            color: gray;
+            font-size: 12px;
+            width: 70%;
+        }
+    }
+
+    .disclaimer-text {
+        margin-top: 60px;
+
+        li {
+            margin-left: 50px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        .img-con {
+            width: 70%;
+            margin: 20px auto;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
