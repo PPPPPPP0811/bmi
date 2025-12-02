@@ -28,3 +28,8 @@ var server = app.listen(3000, function () {
    var port = server.address().port
    console.log("Example app listening at http://%s:%s", host, port)
 })
+var port = process.env.PORT || 3000; 
+// ใช้ Port ที่ผู้ให้บริการกำหนด หรือใช้ 3000 หากทดสอบบน Localhost
+var server = app.listen(port, function (){
+
+})
